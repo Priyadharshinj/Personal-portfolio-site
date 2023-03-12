@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+<!-----------------------------------ICons & Fonts------------------------->
+<script src="https://kit.fontawesome.com/57e94a0401.js" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+
+<!----------------------------CSS--------------------------->
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+        font-family: sans-serif;
+    }
+/*--------------------------------------Nav bar style-------------------------*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:8ch ;padding:1%;
+    padding-right:5ch ;padding-bottom: 1%;
+    background: rgb(221, 184, 139);  
+    position: fixed; 
+    overflow: auto;
+    width: 97%;
+}
+nav h3{
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+    font-size: 2.5ch;
+    margin-left: 3.5ch;
+}
+nav h3 a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 21px;letter-spacing: .7px;
+    align-items: center; 
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 2ch;  
+   
+}
+nav ul li a:hover{
+    color:black;
+    transition: ease-in .2s;
+    
+}
+/*--------------------------------------Contact form style--------------------*/
+.contact{
+    background-color: rgb(207, 76, 76);
+    padding-top: 10ch;
+    height:90%;  
+    min-height: 90vh;
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap:6rem;
+    padding-left: 17ch;
+    
+}
+
+.contact-form form input, form textarea{
+  
+    width:85%;
+    padding:15px;
+    border:none;
+    background-color: #151414;
+    color: antiquewhite;
+    font-size: 0.8rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+    
+}
+.contact-form form textarea{
+    padding:5px;
+}
+.contact-text h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    color: bisque;
+    
+}
+.contact-text span{
+    color: deepskyblue;
+}
+.contact-text h4 a{
+    color: rgb(238, 135, 8);
+    margin-left: 11%;
+    margin: 6%;
+    margin-left: 11%;
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration-line: none;
+}
+.contact-icons{
+    padding: 10px;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    letter-spacing: 1ch;
+    margin-left: 6.5%;
+    margin-top: 6%;
+    
+}
+.contact-icons i{
+    color:rgb(113, 203, 219);
+}
+.contact-icons i:hover{
+    transform: translateY(-14px);
+    transition:all .45s ease;
+    color:rgb(212, 221, 224);
+}
+
+.contact-form button{
+    padding:7px;margin-bottom:10px;
+    margin-top: 6px;margin-right: 1ch;
+    border-radius: 15px;
+    margin-left: 35%;width: 20%;
+    background:deepskyblue;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+
+</style>
+</head>
+
+<!--------------------------------------------------------------------->
+<body>
+<!--------------------------------NAV BAR--------------------------------->
+<div class="header">
+    
+    <nav>
+        <h3><a href="Vv Html.html">Priya  Dharshini <i class="fa-solid fa-heart"></i></a></h3>
+    
+        <ul>
+    </html>
+            <li><a href="Vv Html.html"> Home</a></li>
+            <li><a href="vv About.html">About </a></li>
+            <li><a href="Vv contact.html">Contact</a></li>
+            <li><a href="Vv Experience.html">Experience</a></li>
+        </ul>
+    </nav>
+    </div>
+<!------------------------------------------Contact Form---------------------->
+<section class="contact">   
+
+        <div class="contact-form">
+        <form action="">
+            <input type="" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+            <input type="" placeholder="Enter Your Subject">
+            <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required>
+            </textarea><br>
+            <button>Submit</button>
+        </form>
+        </div>
+        
+        <div class="contact-text">
+            <h1>Contact <span>Me</span></h1>
+            <h4><a href=>priyahda@gmail.com</a></h4>
+        
+        
+             <div class="contact-icons">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+               </div>
+        </div>
+        
+        </section>
+
+</body>
+</html>

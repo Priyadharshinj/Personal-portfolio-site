@@ -1,0 +1,353 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+/*---------------------------INTR0---------------------------*/
+.intro{
+    background: rgb(236, 174, 66);
+    margin: 0%; padding-bottom:2%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1%;padding-left:7ch ;
+    padding-right:5ch ;
+    background: rgb(221, 184, 139);  
+    position: fixed; 
+    overflow: auto;
+    width: 95%;
+}
+nav h3{
+    
+    letter-spacing: 1px;
+    font-size: 2.5ch;
+    
+}
+nav h3 a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;letter-spacing: .7px;
+    align-items: center; 
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 2ch;  
+   
+}
+nav ul li a:hover{
+    color:black;
+    transition: ease-in .2s;
+    
+}
+.main-content{
+    padding-left: 38%;
+    text-align: center;
+    margin:10ch;
+    margin-top: 20ch;
+
+}
+
+.main{
+    display: grid;
+    padding: 0%;margin: 0%;
+}
+
+.main h4 {
+    font-size:2em;
+    margin-bottom:3%;  
+    margin-right: 3px;
+}
+.main h1{
+    font-size:3em;
+    margin-bottom:3%; 
+}
+.main h5{
+    font-size:1.5em;
+    
+}
+.main button{
+    cursor: pointer;
+    padding: 1.7ch;
+    margin-top: 4ch;
+    border-radius:20px;
+    background-color: rgb(113, 203, 219);
+    border-color: rgb(113, 203, 219);
+}
+
+.main button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------Education--------------------------------*/
+.container{
+  
+  padding: 30px 10%;
+  background-color:rgb(113, 203, 219) ;
+  padding-bottom: 10ch;
+}
+.education .contents{
+ padding: 0px 30px;
+ border-left: 2px solid; 
+}
+.contents .box{
+    padding-bottom: 6ch;
+    padding-top: 1ch;
+}
+.title h1 {
+  margin: 3% 0% 6% 0%;
+  font-size: 2.7em;
+}
+.x p:hover{
+    color: black;
+}
+.x {
+    padding: 2ch;
+    padding-bottom: 5ch;
+}
+.contents h3{
+    font-size: 2.7ch;
+}
+.contents p{
+    font-size: 2ch;
+}
+/*--------------------------------------------------------------------------------*/
+/*---------------------------------skilss--------------------------*/
+.skill{
+    width:100%;
+    background: rgb(159, 63, 159);
+    padding-bottom: 4%;
+    
+}
+.header h1{
+    color:black;
+    font-size: 45px;
+    width:1130px;
+    margin: 10px auto; margin-left: 1ch;
+    margin-top: 0%; margin-bottom: 4ch;
+    text-align: center;
+    padding-top: 4ch;padding-left: 1.5ch;
+}
+.skill span {
+    
+}
+.skill-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logo i{
+    font-size: 10ch;
+    color:  rgb(232, 232, 164) ;
+}
+
+.skill .Box{
+    justify-content: space-around;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 10.5ch;
+    border-color:rgb(159, 63, 159);
+    
+}
+.icons h5{
+    font-size: 2ch;
+}
+.skill .box:hover{
+    background:rgb(200, 116, 200);
+    
+}
+.box h5{
+    padding-top: 2.5ch;
+}
+
+
+/*.skills {
+    background: darkmagenta;
+    padding: 10ch;
+}
+.skills h2{
+    text-align: center;
+    font-size: 6ch;
+}
+.set{
+    padding: 5ch;
+
+}
+.web .box {
+    border: 2px;
+    border-radius: 5px;
+    width:15ch ;height:8ch ;
+    text-align: center;
+    
+}
+.skills i{
+    font-size: 10ch;
+    
+}
+
+.web {
+    display: flex;
+    margin: 4ch;
+}
+.lang .box {
+    border: 2px ;
+    border-radius: 5px;
+    width:20ch ;height:8ch ;
+    text-align: center;
+    
+}
+.lang{
+    display: flex;
+    padding-left: 80%;
+    margin: 4ch;
+}
+.tools{
+    display: flex;
+    margin: 4ch;
+}
+
+.tools .box {
+    border: 2px;
+    border-radius: 5px;
+    width:15ch ;height:8ch ;
+    text-align: center;
+}
+*/
+/*-----------------------------------Projects----------------------------------------*/
+.services{
+    background: rgb(207, 76, 76);
+    padding: 8%;
+}
+
+.main-text{
+    text-align: center;
+   
+}
+.main-text p{
+    font-size: 15px;
+    margin-bottom: 15px;margin-top: 10px;
+}
+.main-text h2{
+    font-size:2.5em ;
+    line-height:1;
+}
+
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap:2.5rem;
+    margin-top:4rem ;
+    text-align: center;
+   
+    
+}
+.box{
+    padding: 15px 20px;
+    border:#292626 solid 5px;
+    border-radius: 10px;
+    margin-left: 1ch; margin-top: 2ch;
+    transition:all .45s ease ;
+   
+}
+.box:hover{
+    background: rgb(221, 184, 139);
+    
+}
+.s-icons i{
+    font-size:32px;
+    margin-bottom:20px;
+    color:#4f4b4b
+}
+.box h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.box p{
+    font-size:1rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+.read{
+    display: inline-block;
+    padding: 8px 18px;
+    background:rgb(179, 162, 140);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all .45s ease; 
+}
+.read:hover{
+    letter-spacing: 1px;
+    color: darkslategray;
+}
+.box:hover{
+    transform: translateY(-20px);
+    cursor: pointer; color: none;}
+   
+
+/*--------------------------------------------------------------------------------------------------
+
+/*-----------------------Hire me-------------------------------------*/
+.freelance{
+    background: rgb(236, 174, 66);
+}
+.hire{
+    text-align: center;  
+    padding-bottom: 1.5%;
+}
+.text h1{
+    font-size: 3ch;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    margin-left: 2.5ch;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    
+    
+    
+}
+.text h1 i{
+    font-size: 2.5ch;
+}
+.text p{
+    padding-bottom: 0%;
+    font-weight: bolder;
+    transition: none;
+    color: none;
+}
+.social-icons{
+    
+    padding-bottom:5%;
+    justify-content: space-around;
+    font-size: 2rem;
+    letter-spacing: 1ch;
+    margin-left: 2.5%;
+    margin-top: 5%;
+}
+.social-icons i:hover{
+    transform: translateY(-20px);
+    transition:all .45s ease;
+    
+}
+/*-------------------------------------------------------------------------------*/
+
+

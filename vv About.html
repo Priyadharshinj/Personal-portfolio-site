@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/57e94a0401.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    
+<!------------------------------STYLES---------------------------------->
+<style>
+/*---------------------------NAV BAR--------------------*/
+*{
+    padding: 0%;
+    margin: 0%;font-family: sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:8ch ;padding:1%;
+    padding-right:5ch ;padding-bottom: 1%;
+    background: rgb(221, 184, 139);  
+    position: fixed; 
+    overflow: auto;
+    width: 97%;
+}
+nav h3{
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+    font-size: 2.5ch;
+    margin-left: 3.5ch;
+}
+nav h3 a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 21px;letter-spacing: .7px;
+    align-items: center; 
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 2ch;  
+   
+}
+nav ul li a:hover{
+    color:black;
+    transition: ease-in .2s;
+    
+}
+/*-------------------------ABOUT STYLE----------------------------*/
+body{
+    background:rgb(113, 203, 219) ;
+}
+.about{
+    padding-top: 15ch;
+    padding-bottom: 5ch;
+   
+}
+.about h2{
+    font-size: 2.5em;padding-bottom: 8px;
+    text-align:left;color: black;
+}
+.about img{
+    height: 475px;
+    width:420px ;
+    border-radius: 15px;
+}
+.about-text{
+    width:550px;
+    position: relative;
+}
+.about-text h2{
+    text-transform:capitalize;
+    font-size: 3em;
+}
+.about-text h5{
+   font-size: 1.5em;padding-bottom: 10px;
+   color:black;
+   
+}
+.about-text p{
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+
+.about .me{
+    height: 0%;
+    padding-left: 4ch;
+    max-height: 200%;
+    max-width: 100%;
+    margin:0;padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.me button{
+    padding:12px;margin-bottom: 5ch;
+    margin-top: 1.5em;margin-right: 1ch;
+    border-radius: 20px;
+    background:deepskyblue;
+    font-weight: bold;
+    transition: none;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<!-----------------------------------------NAV BAR--------------------------->
+<div class="header">
+    
+    <nav>
+        <h3><a href="Vv Html.html">Priya  Dharshini <i class="fa-solid fa-heart"></i></a></h3>
+    
+        <ul>
+    
+            <li><a href="Vv Html.html"> Home</a></li>
+            <li><a href="vv About.html">About </a></li>
+            <li><a href="Vv contact.html">Contact</a></li>
+            <li><a href="Vv Experience.html">Experience</a></li>
+        </ul>
+    </nav>
+    </div>
+<!---------------------------------------------------------------------------->
+<section class="about">
+    <div class="me">
+        <img src="My Photo.jpg">
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h5>Developer & Designer</h5>
+            <p>A believer of teamwork and hard work towards goal. I always had curiosity about this virtual world.
+                Started my higher studies as an Engineering student in computer science domain at Avinashiligham university. Expected to be 2024 passed out.
+                Concentration in computer science and engineering provide a broad knowledge of engineering concepts.
+                Participating in several Patent Procedures with My CSE team. Passion for innovation.</p>
+            <button type="button" class="button" id="button"><a href="My Resume.pdf"></a>View my resume</button>
+        </div>
+    </div>
+
+    </section>
+</body>
+</html>
